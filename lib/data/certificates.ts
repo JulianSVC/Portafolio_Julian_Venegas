@@ -21,7 +21,7 @@ export const certificates: Certificate[] = [
   },
   {
     id: "3",
-    name: "Especialización en Desarrollo Full Stack",
+    name: " Desarrollo Full Stack Con Inteligencia Artificial",
     issuer: "Escuela Global",
     date: "2026-07-01",
     credentialId: "",
