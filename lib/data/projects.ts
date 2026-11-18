@@ -8,7 +8,6 @@ export const projects: Project[] = [
     image: "/projects/metricmind.jpg",
     technologies: ["Python", "Streamlit", "Groq API", "Pandas", "Plotly", "Stripe", "Llama 3.3"],
     category: "web",
-    demo: "https://metricmind-ai.streamlit.app",
     github: "https://github.com/tuusuario/metricmind-ai",
     featured: true,
     longDescription: "MetricMind AI es un SaaS de Business Intelligence completamente funcional que democratiza el análisis de datos. Construido con Python y Streamlit, integra IA (Groq/Llama 3.3) para generar insights estratégicos automáticos.",
