@@ -1,0 +1,81 @@
+﻿@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-dark-bg text-gray-100 antialiased transition-colors duration-300;
+  }
+}
+
+/* Modo claro */
+html.light body {
+  @apply bg-light-bg text-gray-900;
+}
+
+html.light .bg-dark-card {
+  @apply bg-white border-gray-200;
+}
+
+html.light .bg-dark-surface {
+  @apply bg-gray-100;
+}
+
+html.light .text-gray-400 {
+  @apply text-gray-600;
+}
+
+html.light .bg-dark-bg {
+  @apply bg-white;
+}
+
+html.light .border-white\/10 {
+  @apply border-gray-200;
+}
+
+html.light .border-white\/5 {
+  @apply border-gray-100;
+}
+
+html.light .bg-white\/5 {
+  @apply bg-gray-100;
+}
+
+html.light .hover\:bg-white\/10:hover {
+  @apply hover:bg-gray-200;
+}
+
+html.light .text-gray-300 {
+  @apply text-gray-700;
+}
+
+html.light .text-white {
+  @apply text-gray-900;
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary;
+  }
+  
+  .glass-effect {
+    @apply backdrop-blur-lg bg-white/5 border border-white/10;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0f;
+}
+
+html.light ::-webkit-scrollbar-track {
+  background: #f0f0f0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #e94560, #0f3460);
+  border-radius: 4px;
+}
