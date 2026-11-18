@@ -4,9 +4,12 @@ import { motion } from "framer-motion"
 import { Button } from "@/components/ui/Button"
 import { FaWhatsapp, FaShieldAlt, FaDatabase, FaMoon, FaPrint, FaChartBar, FaUsers, FaMoneyBillWave } from "react-icons/fa"
 
+import CorePOSClient from "./CorePOSClient"
+
 export const metadata = {
   title: "CorePOS | Sistema de Punto de Venta",
-  description: "Sistema de punto de venta local para tiendas en Colombia. Control de ventas, inventario y reportes.",
+  description:
+    "Sistema de punto de venta local para tiendas en Colombia. Control de ventas, inventario y reportes avanzados.",
 }
 
 export default function CorePOSPage() {

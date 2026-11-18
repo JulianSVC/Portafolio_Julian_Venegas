@@ -3,10 +3,12 @@
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/Button"
 import { FaWhatsapp, FaShieldAlt, FaCode, FaLaptop, FaStore, FaCogs } from "react-icons/fa"
+import KodigmaClient from "./KodigmaClient"
 
 export const metadata = {
   title: "Kodigma | Software para negocios reales",
-  description: "Desarrollo de software colombiano para negocios reales. Soluciones que realmente funcionan. Landing pages, sitios web, e-commerce y software a medida.",
+  description:
+    "Desarrollo de software colombiano para negocios reales. Soluciones que realmente funcionan. Landing pages, sitios web, e-commerce y software a medida.",
 }
 
 export default function KodigmaPage() {
